@@ -49,7 +49,7 @@ import os
 # Add a Remote Repository
     # git remote add origin url
 # View Remote Repositories
-    # git remove -v 
+    # git remote -v 
 # Push Changes to Remote Repository
     # git push origin branch_name
 # Pull Changes from Remote Repository
