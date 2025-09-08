@@ -1,5 +1,15 @@
 import os
 
+# create a repo
+gh repo create <REPO_NAME>
+
+gh repo create my-new-repo --public --description "My new project" --enable-issues
+
+git clone https://github.com/YourUsername/my-new-repo.git
+
+gh auth login
+
+
 # Configure git( First-time setup)
 # git config --global user.name "username"
 # git config --global user.email "email"
